@@ -1,0 +1,44 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ListView1: TListView
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited OverlayLayout: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+      inherited DetailTopLayout: TLayout
+        Size.Width = 450.000000000000000000
+        inherited DetailTopBackground: TRectangle
+          Size.Width = 450.000000000000000000
+        end
+        inherited DetailComboBox: TComboBox
+          Size.Width = 444.000000000000000000
+        end
+      end
+      inherited MainTopLayout: TLayout
+        Size.Width = 450.000000000000000000
+        inherited MainTopBackground: TRectangle
+          Size.Width = 450.000000000000000000
+          inherited MainTopLabel: TLabel
+            Size.Width = 450.000000000000000000
+          end
+        end
+      end
+      inherited ActionBottomLayout: TFlowLayout
+        Position.Y = 621.000000000000000000
+        Size.Width = 437.000000000000000000
+        inherited Action1Circle: TCircle
+          Position.X = 373.000000000000000000
+        end
+        inherited Action2Circle: TCircle
+          Position.X = 299.000000000000000000
+        end
+        inherited Action3Circle: TCircle
+          Position.X = 225.000000000000000000
+        end
+      end
+    end
+  end
+end

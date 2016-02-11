@@ -1,0 +1,45 @@
+inherited Form1_iPhone55in: TForm1_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 3
+  inherited ListView1: TListView
+    Size.Width = 414.000000000000000000
+    Size.Height = 716.000000000000000000
+    inherited OverlayLayout: TLayout
+      Size.Width = 414.000000000000000000
+      Size.Height = 716.000000000000000000
+      inherited DetailTopLayout: TLayout
+        Size.Width = 414.000000000000000000
+        inherited DetailTopBackground: TRectangle
+          Size.Width = 414.000000000000000000
+        end
+        inherited DetailComboBox: TComboBox
+          Size.Width = 408.000000000000000000
+          Size.Height = 30.000000000000000000
+        end
+      end
+      inherited MainTopLayout: TLayout
+        Size.Width = 414.000000000000000000
+        inherited MainTopBackground: TRectangle
+          Size.Width = 414.000000000000000000
+          inherited MainTopLabel: TLabel
+            Size.Width = 414.000000000000000000
+          end
+        end
+      end
+      inherited ActionBottomLayout: TFlowLayout
+        Position.Y = 642.000000000000000000
+        Size.Width = 401.000000000000000000
+        inherited Action1Circle: TCircle
+          Position.X = 337.000000000000000000
+        end
+        inherited Action2Circle: TCircle
+          Position.X = 263.000000000000000000
+        end
+        inherited Action3Circle: TCircle
+          Position.X = 189.000000000000000000
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="WUJ01J74AX"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2016/01/22 13:44:57.000.208,=E:\SVN PERSONAL\AppMizton\Unit1.pas</Transaction>
+    <Transaction>2016/01/22 13:45:28.000.189,E:\SVN PERSONAL\AppMizton\HeaderFooterApplication.dproj=E:\SVN PERSONAL\AppMizton\Mizton.dproj</Transaction>
+    <Transaction>2016/01/22 13:45:37.000.322,E:\SVN PERSONAL\AppMizton\Unit1.pas=E:\SVN PERSONAL\AppMizton\Utils.pas</Transaction>
+    <Transaction>2016/01/22 14:10:34.000.634,=E:\SVN PERSONAL\AppMizton\Unit1.pas</Transaction>
+    <Transaction>2016/01/22 14:11:05.000.541,E:\SVN PERSONAL\AppMizton\Unit1.pas=E:\SVN PERSONAL\AppMizton\SysMobile.pas</Transaction>
+    <Transaction>2016/01/22 14:22:21.000.552,E:\SVN PERSONAL\AppMizton\SysMobile.pas=</Transaction>
+    <Transaction>2016/01/23 00:07:32.000.475,=E:\SVN PERSONAL\AppMistonv2\Unit1.pas</Transaction>
+    <Transaction>2016/01/23 00:08:26.000.990,=E:\SVN PERSONAL\AppMistonv2\Unit1.pas</Transaction>
+    <Transaction>2016/01/23 00:09:52.000.053,E:\SVN PERSONAL\AppMistonv2\UFrmFolios.fmx=E:\SVN PERSONAL\AppMistonv2\Unit1.fmx</Transaction>
+    <Transaction>2016/01/23 00:09:52.000.053,E:\SVN PERSONAL\AppMistonv2\UFrmFolios.pas=E:\SVN PERSONAL\AppMistonv2\Unit1.pas</Transaction>
+    <Transaction>2016/01/23 00:41:25.000.069,E:\SVN PERSONAL\AppMistonv2\UFrmFolios.pas=</Transaction>
+    <Transaction>2016/01/23 00:41:32.000.041,=E:\SVN PERSONAL\AppMistonv2\UFrmFolios.pas</Transaction>
+    <Transaction>2016/01/23 00:45:22.000.462,E:\SVN PERSONAL\AppMistonv2\UFrmFolios.pas=</Transaction>
+    <Transaction>2016/01/23 00:45:55.000.178,=E:\SVN PERSONAL\AppMistonv2\MainFormUnit.pas</Transaction>
+    <Transaction>2016/01/23 03:43:57.000.626,=E:\SVN PERSONAL\AppMistonv2\Unit1.pas</Transaction>
+    <Transaction>2016/01/23 03:53:05.000.776,=E:\SVN PERSONAL\AppMistonv2\Unit2.pas</Transaction>
+    <Transaction>2016/01/23 03:53:42.000.502,E:\SVN PERSONAL\AppMistonv2\UDMConnection.dfm=E:\SVN PERSONAL\AppMistonv2\Unit2.dfm</Transaction>
+    <Transaction>2016/01/23 03:53:42.000.502,E:\SVN PERSONAL\AppMistonv2\UDMConnection.pas=E:\SVN PERSONAL\AppMistonv2\Unit2.pas</Transaction>
+    <Transaction>2016/01/23 03:54:05.000.859,E:\SVN PERSONAL\AppMistonv2\uFrmCapturaFolio.fmx=E:\SVN PERSONAL\AppMistonv2\Unit1.fmx</Transaction>
+    <Transaction>2016/01/23 03:54:05.000.859,E:\SVN PERSONAL\AppMistonv2\uFrmCapturaFolio.pas=E:\SVN PERSONAL\AppMistonv2\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,165 @@
+object FrmFolios: TFrmFolios
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 598
+  ClientWidth = 399
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TImageListItemBottomDetailAppearance'
+    ItemEditAppearanceClassName = 'TImageListItemBottomDetailShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 399.000000000000000000
+    Size.Height = 598.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearance.HeaderHeight = 128
+    object OverlayLayout: TLayout
+      Align = Contents
+      Size.Width = 399.000000000000000000
+      Size.Height = 598.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object DetailTopLayout: TLayout
+        Align = Top
+        Position.Y = 64.000000000000000000
+        Size.Width = 399.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object DetailTopBackground: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Sides = []
+          Size.Width = 399.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object DetailTopAnimation: TFloatAnimation
+          AnimationType = InOut
+          Duration = 0.200000002980232200
+          Interpolation = Quadratic
+          PropertyName = 'Margins.Top'
+          StartValue = 0.000000000000000000
+          StartFromCurrent = True
+          StopValue = 0.000000000000000000
+        end
+        object DetailComboBox: TComboBox
+          Align = Client
+          Items.Strings = (
+            'All data'
+            'Filter Example 1'
+            'Filter Example 2'
+            'Filter Example 3')
+          ItemIndex = 0
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 393.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object ShadowEffect1: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+      object MainTopLayout: TLayout
+        Align = MostTop
+        Size.Width = 399.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object MainTopBackground: TRectangle
+          Align = Client
+          Corners = []
+          Fill.Color = claRoyalblue
+          Sides = []
+          Size.Width = 399.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          object MainTopLabel: TLabel
+            Align = Client
+            StyledSettings = [Family, Size]
+            Size.Width = 399.000000000000000000
+            Size.Height = 64.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Style = [fsBold]
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'MainTopLabel'
+          end
+        end
+        object MainTopAnimation: TFloatAnimation
+          AnimationType = InOut
+          Duration = 0.200000002980232200
+          Interpolation = Quadratic
+          PropertyName = 'Margins.Top'
+          StartValue = 0.000000000000000000
+          StartFromCurrent = True
+          StopValue = 0.000000000000000000
+        end
+      end
+      object ActionBottomLayout: TFlowLayout
+        Align = Bottom
+        Margins.Left = 3.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 3.000000000000000000
+        Position.Y = 524.000000000000000000
+        Size.Width = 386.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Justify = Right
+        JustifyLastLine = Right
+        FlowDirection = RightToLeft
+        HorizontalGap = 10.000000000000000000
+        VerticalGap = 10.000000000000000000
+        object Action1Circle: TCircle
+          Fill.Color = xFFF44336
+          Position.X = 322.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Action2Circle: TCircle
+          Fill.Color = xFFF44336
+          Position.X = 248.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Action3Circle: TCircle
+          Fill.Color = xFFF44336
+          Position.X = 174.000000000000000000
+          Size.Width = 64.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object ActionBottomAnimation: TFloatAnimation
+          AnimationType = InOut
+          Duration = 0.200000002980232200
+          Interpolation = Quadratic
+          PropertyName = 'Margins.Bottom'
+          StartValue = 0.000000000000000000
+          StartFromCurrent = True
+          StopValue = 0.000000000000000000
+        end
+      end
+    end
+  end
+end
